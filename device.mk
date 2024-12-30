@@ -164,7 +164,7 @@ PRODUCT_PACKAGES += \
     init.qti.display_boot.sh
 
 # Dolby
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     XiaomiDolby
 
 # DRM
