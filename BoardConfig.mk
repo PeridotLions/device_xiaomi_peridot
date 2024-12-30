@@ -91,7 +91,10 @@ BOARD_KERNEL_IMAGE_NAME := Image
 TARGET_KERNEL_CLANG_VERSION := clang-r522817
 TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-r522817
 TARGET_KERNEL_SOURCE := kernel/xiaomi/peridot
-TARGET_KERNEL_CONFIG := peridot_defconfig
+TARGET_KERNEL_CONFIG := \
+    gki_defconfig \
+    peridot_defconfig \
+    vendor/pineapple_GKI.config
 
 BOARD_BOOT_HEADER_VERSION := 4
 BOARD_MKBOOTIMG_ARGS := --header_version $(BOARD_BOOT_HEADER_VERSION)
