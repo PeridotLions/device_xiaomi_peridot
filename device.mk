@@ -277,6 +277,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.qcom
 
+# Kernel Headers
+PRODUCT_VENDOR_KERNEL_HEADERS += \
+	device/xiaomi/peridot-kernel/kernel-headers
+
 # Keymint
 PRODUCT_PACKAGES += \
     android.hardware.authsecret-service.nxp
