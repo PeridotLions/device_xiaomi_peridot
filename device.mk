@@ -283,8 +283,8 @@ PRODUCT_VENDOR_KERNEL_HEADERS += \
 
 # Keymint
 PRODUCT_PACKAGES += \
-    android.hardware.authsecret-service.nxp
-
+    android.hardware.authsecret@1.0.vendor
+    
 PRODUCT_PACKAGES += \
     android.hardware.authsecret@1.0.vendor \
     android.hardware.gatekeeper-V1-ndk.vendor \
